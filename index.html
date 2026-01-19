@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind linking  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>TechWave</title>
-
+    
     <!-- icon link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- icon link  -->
 
+    <link rel="stylesheet" href="./style.css">
+
+    <title>TechWave</title>
 </head>
+
 <body>
     <header>
-        <nav class="bg-indigo-950 h-[100px] w-auto flex justify-evenly align items-center border-b-1 border-violet-400">
+        <nav class="bg-indigo-950 h-[100px] w-auto flex justify-evenly align items-center border-b-1 border-violet-400 gap-[150px] ">
 
 
             <div class="logo text-white font-bold text-5xl ">
-                Tech<span class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">Wave</span> 
+                Tech<span class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-800 bg-clip-text text-transparent">Wave</span> 
             </div>
 
             <div class="text-white list-none font-medium text-[16px]">
@@ -29,11 +32,50 @@
                 </ul>
             </div>
 
-            <button class="text-white font-semibold text-[16px] bg-black w-[135px] h-[44px] rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100%"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <button class="text-white font-semibold text-[18px] bg-black w-[135px] h-[44px] rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100%"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
 
         </nav>
 
-        <section class="hero-section"></section>
+
+        <!-- hero-section  -->
+      <section class="relative w-[100%] h-[760px] overflow-hidden text-white">
+
+        <!-- bg-image  -->
+      <img src="./assets/hero-bg.png" alt="Wave Background" class="absolute inset-0 w-full h-  full object-cover"/>
+        <!-- bg-image  -->
+
+        <!-- mic and background  -->
+    <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
+
+         <div class="relative mb-6">
+        
+         <img src="./assets/hero-circle.png" alt="Circle" class="w-[350px] h-[350px]"/>
+         <img src="./assets/microphone.png" alt="Microphone" class="absolute inset-0 m-auto w-[120px]"/>
+        
+         <span class="absolute top-5 right-4 bg-green-400 text-black text-[18px] font-semibold px-3 py-2 rounded-full bg-green-300 shadow-xl shadow-green-500/40">NEW </span>
+         </div>
+         <!-- mic and background  -->
+        
+         <!-- texts and paras  -->
+         <h1 class="text-[60px] font-extrabold mb-2">TechWave</h1>
+         <p class="max-w-[520px] text-gray-300 text-[16px] font-regular mb-8">
+         Your daily dose of tech insights, productivity hacks, and personal growth</p>
+         <!-- texts and paras  -->
+        
+         <!-- cta btn's  -->
+         <div class="flex gap-4">
+         <!-- btn-1    -->
+         <a href="" class="px-8 py-4 rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100% font-medium transition-transform hover:scale-105"><i class="fa-brands fa-spotify"></i>  Listen on Spotify</a>
+         <!-- btn-2  -->
+         <a href="#" class="px-5 py-4 rounded-full border border-green-400 text-green-400 font-medium transition hover:bg-green-400 hover:text-black"><i class="fa-regular fa-envelope"></i>   Subscribe</a>
+         </div>
+
+    </div>
+
+      </section>
+     <!-- hero-section  -->
+
+
 
 
 
