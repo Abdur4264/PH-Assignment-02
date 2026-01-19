@@ -1,22 +1,3 @@
-/* .section-bg{
-    width: 100%;
+body {
+  font-family: 'Inter', sans-serif;
 }
-
-.microphone-bg{
-
-    position: relative;
-    align-items: center;
-
-}
-
-.microphone{
-    background-image: url(./assets/hero-circle.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-size: 100% 100%;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    left: 500px; 
-} */

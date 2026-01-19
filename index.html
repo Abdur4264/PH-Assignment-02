@@ -10,12 +10,16 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- icon link  -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 
     <title>TechWave</title>
 </head>
 
-<body>
+<body class="font-inter">
     <header>
         <nav class="bg-indigo-950 h-[100px] w-auto flex justify-evenly align items-center border-b-1 border-violet-400 gap-[150px] ">
 
@@ -35,10 +39,11 @@
             <button class="text-white font-semibold text-[18px] bg-black w-[135px] h-[44px] rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100%"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
 
         </nav>
+    </header>
 
 
         <!-- hero-section  -->
-      <section class="relative w-[100%] h-[760px] overflow-hidden text-white">
+    <section class="relative w-[100%] h-[760px] overflow-hidden text-white">
 
         <!-- bg-image  -->
       <img src="./assets/hero-bg.png" alt="Wave Background" class="absolute inset-0 w-full h-  full object-cover"/>
@@ -52,7 +57,7 @@
          <img src="./assets/hero-circle.png" alt="Circle" class="w-[350px] h-[350px]"/>
          <img src="./assets/microphone.png" alt="Microphone" class="absolute inset-0 m-auto w-[120px]"/>
         
-         <span class="absolute top-5 right-4 bg-green-400 text-black text-[18px] font-semibold px-3 py-2 rounded-full bg-green-300 shadow-xl shadow-green-500/40">NEW </span>
+         <span class="absolute top-5 right-4 bg-green-400 text-black text-[18px] font-semibold px-3 py-2 rounded-full bg-green-300 shadow-xl shadow-green-500/40 ">NEW </span>
          </div>
          <!-- mic and background  -->
         
@@ -65,23 +70,80 @@
          <!-- cta btn's  -->
          <div class="flex gap-4">
          <!-- btn-1    -->
-         <a href="" class="px-8 py-4 rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100% font-medium transition-transform hover:scale-105"><i class="fa-brands fa-spotify"></i>  Listen on Spotify</a>
+         <a href="" class="px-8 py-4 rounded-full bg-gradient-to-tr from-yellow-500 from-10% via-pink-500 via-% to-purple-500 to-100% font-medium transition-transform hover:scale-105 animate-pulse"><i class="fa-brands fa-spotify"></i>  Listen on Spotify</a>
          <!-- btn-2  -->
-         <a href="#" class="px-5 py-4 rounded-full border border-green-400 text-green-400 font-medium transition hover:bg-green-400 hover:text-black"><i class="fa-regular fa-envelope"></i>   Subscribe</a>
+         <a href="#" class="px-5 py-4 rounded-full border border-green-400 text-green-400 font-medium transition hover:bg-green-400 hover:text-black"><i class="fa-regular fa-envelope "></i>   Subscribe</a>
          </div>
 
     </div>
 
-      </section>
+    </section>
+
      <!-- hero-section  -->
+      
+
+    <div class="bg-indigo-950 h-[720px]"> 
+          
+      <h1 class=" w-auto flex justify-evenly align items-center pt-[50px] text-white text-[48px] font-bold">About the Podcast</h1>
+      
+      <p class="text-center mt-[16px] text-white text-[18px] font-regular text-base/10">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+      We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+      and share stories of personal growth from industry leaders.<br><br><br>
+      
+      Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+      
+      <hr class=" mx-auto border-white opacity-10 w-[1200px] mt-[80px] mb-[80px] flex">
+
+      <!-- matrics  -->
+        <div class="matrics flex justify-center gap-[180px] mb-[65px]">
+            
+            <div class="text-center">
+            <h1 class=" text-green-400 text-[48px] font-black mb-[16px]">150k+</h1>
+            <h3 class=" uppercase text-white text-[18px] font-regular ">Monthly Listeners</h3>
+            </div>
+        
+            <div class="text-center">
+            <h1 class=" text-green-400 text-[48px] font-black mb-[16px]">200+</h1>
+            <h3 class="uppercase text-white text-[18px] font-regular">Episodes Published</h3>
+            </div>
+        
+            <div class="text-center">
+            <h1 class=" text-green-400 text-[48px] font-black mb-[16px]">4.9★</h1>
+            <h3 class="uppercase text-white text-[18px] font-regular">Average Rating</h3>
+            </div>
+        
+            <div class="text-center">
+            <h1 class=" text-green-400 text-[48px] font-black mb-[16px]">50+</h1>
+            <h3 class="uppercase text-white text-[18px] font-regular">Industry Experts</h3>
+            </div>  
+        
+        </div>
+      <!-- matrics  -->
+
+      <div class="bg-indigo-900 h-[1121px]">
+
+        <h1 class=" pt-[100px] pb-[40px] text-center text-[48px] font-bold text-white ">Why Choose TechWave</h1>
+
+      </div>
+ 
+
+
+    
+
+
+
+    </div>
+      
+
+
+
+    
 
 
 
 
 
 
-
-    </header>
     
 
 
